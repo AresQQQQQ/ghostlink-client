@@ -65,7 +65,7 @@ chmod +x mihomo-v*-ghostlink-linux-*
 1. 根据设备架构选择 `linux-arm64`、`linux-amd64` 等产物。
 2. 在 OpenClash 中暂停运行，备份原核心。
 3. 将新核心替换为 `/etc/openclash/core/clash_meta`，保留可执行权限。
-4. 在 OpenClash 的 Zashboard 面板中刷新，确认订阅单节点测速可用。
+4. 在 OpenClash 的 Zashboard 面板中刷新，确认升级后的面板支持订阅单节点测速。
 
 ```bash
 /etc/init.d/openclash stop
@@ -98,3 +98,4 @@ proxies:
 
 本仓库的 Release 只包含预编译客户端核心。面板镜像与许可证服务分别部署，客户端
 不包含服务器私钥或共享分发密钥。
+
